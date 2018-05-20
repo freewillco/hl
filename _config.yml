@@ -113,3 +113,10 @@ collections:
     output: true
   posts:
     output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: locations
+    values:
+      layout: page
