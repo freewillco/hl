@@ -107,3 +107,9 @@ JB :
   # where [HELPER] is the name of the helper you are overriding.
 
 theme: jekyll-theme-slate
+
+collections:
+  locations:
+    output: true
+  posts:
+    output: true
