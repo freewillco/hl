@@ -2,6 +2,8 @@
 layout: post
 title:  Spring Migration at Waverly Woods
 date:   2018-04-01 21:41:31 -0400
+foo: this
+bar: that
 ---
 
 See what Waverly Woods has to offer.
