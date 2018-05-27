@@ -1,7 +1,7 @@
 ---
 title: Oldfield Road, between Dorchester Road & Drummond Road, Niagara Falls
 category: threatened
-pos: 41.5,-79
+pos: 43.064563,-79.103505
 ---
 
 The circled area on this 1934 air photo depicts a mature forest. Mature forests in 1934 would have been continually forested since at least the 1850’s - 1830’s making this a remnant of the original Carolinian forest.

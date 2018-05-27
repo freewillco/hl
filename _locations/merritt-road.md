@@ -1,7 +1,7 @@
 ---
 title: 125 Merritt Road, between South Pelham Road and Rice Road, Pelham
 category: threatened
-pos: 41,-81
+pos: 43.031388,-79.278813
 ---
 
 The circled area on this 1934 air photo depicts a mature forest. Mature forests in 1934 would have been continually forested since at least the 1850’s - 1830’s making this a remnant of the original Carolinian forest.
