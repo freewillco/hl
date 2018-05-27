@@ -120,3 +120,11 @@ defaults:
       type: locations
     values:
       layout: page
+
+header_pages:
+  - locations.md
+  - map.md
+  - posts.md
+  - about.md
+
+show_excerpts: true

@@ -1,53 +1,17 @@
 ---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 title: Habitat Loss
-tagline: Tracking habitat loss
 ---
 
-Lots of manually authored stuff here!
+### Forest Loss in the Niagara Region of Ontario
 
-<div class="home">
+The Niagara Region supports some of the most significant and diverse forested areas remaining in Canada today. Yet forest loss continues to occur.
 
-  {%- if site.posts.size > 0 -%}
-    <h2>Posts</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+### Carolinian Forest
 
-  {%- if site.locations.size > 0 -%}
-    <h2>Locations</h2>
-    <ul class="post-list">
-      {%- for location in site.locations -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="location-meta">{{ location.date | date: date_format }}</span>
-        <h3>
-          <a class="location-link" href="{{ location.url | relative_url }}">
-            {{ location.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ location.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+The Niagara Region of Ontario supports some of the most significant and diverse forested areas remaining in Canada today. The Niagara Region is situated in Ontario’s Carolinian Zone which is the southern most region in Canada and contains a diverse flora and fauna including many species not found elsewhere in the country or considered to be at risk.
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+Why then, in the most biologically productive area of our country which supports over 40% of Canada’s plant species and the highest number of species at risk, are we still clearing original, intact forested areas?
