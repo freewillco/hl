@@ -1,7 +1,9 @@
 ---
 ---
 
-var locations = {{ site.locations | jsonify }}
+var locations = {{ site.locations | jsonify }};
+var prefix = '{{ site.config['url'] }}';
+console.log(prefix);
 
 function positionFor(loc) {
   var bits = loc.pos.split(',');
