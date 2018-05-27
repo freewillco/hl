@@ -58,6 +58,10 @@ function initMap() {
     });
   });
 
+  map.addListener('click', function(event) {
+    infoWindow.close();
+  });
+
   map.fitBounds(bounds);
 
   infoWindow = new google.maps.InfoWindow();
