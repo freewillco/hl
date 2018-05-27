@@ -1,7 +1,7 @@
 ---
 title: Hendershot Boulevard & Garner Road, Niagara Falls
 category: lost
-pos: 42,-80
+pos: 44,-79
 ---
 
 {{ page.title }}

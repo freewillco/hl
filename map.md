@@ -28,10 +28,7 @@ title: Map
   </ul>
 </div>
 <div id="map"></div>
-
-{{ site.locations | jsonify }}
-
 <script src="map.js"></script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyDxnWGHKaNlC6mgz9Mn3UdSVcRaBo9brT4">
 </script>
