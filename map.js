@@ -1,9 +1,6 @@
 ---
 ---
 
-var config = {{ site | jsonify }};
-console.log(config);
-
 var locations = {{ site.locations | jsonify }};
 
 function positionFor(loc) {
@@ -72,7 +69,9 @@ function initMap() {
 
 function showLocationInfo(loc) {
 
-  var url = '{{ site.url }}' + loc.url;
+  var baseurl = '{{ site.baseurl }}';
+  var url = baseurl == null ? loc.url : baseurl + loc.url;
+
   var contentString = '<b>' + loc.title + '</b>' +
       '<br><a href="' + url + '">See details</a>';
 
