@@ -2,8 +2,6 @@
 ---
 
 var locations = {{ site.locations | jsonify }};
-var prefix = '{{ site.config['url'] }}';
-console.log(prefix);
 
 function positionFor(loc) {
   var bits = loc.pos.split(',');
@@ -71,8 +69,9 @@ function initMap() {
 
 function showLocationInfo(loc) {
 
+  var url = '{{ site.url }}' + loc.url;
   var contentString = '<b>' + loc.title + '</b>' +
-      '<br><a href="' + loc.url + '">See details</a>';
+      '<br><a href="' + url + '">See details</a>';
 
   // Replace the info window's content and position.
   infoWindow.setContent(contentString);
