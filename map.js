@@ -1,6 +1,9 @@
 ---
 ---
 
+var config = {{ site | jsonify }};
+console.log(config);
+
 var locations = {{ site.locations | jsonify }};
 
 function positionFor(loc) {
